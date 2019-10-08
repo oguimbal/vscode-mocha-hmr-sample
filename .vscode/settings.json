@@ -1,0 +1,8 @@
+{
+    // bundle to watch
+    "mochaExplorer.hmrBundle": "output/tests.js",
+    // When using HMR, it is recommanded to configure a different debug port here.
+    // otherwise, you wont be able to use mocha tests in multiple instances of vscode.
+    "mochaExplorer.debuggerPort": 9231,
+    "mochaExplorer.require": "source-map-support/register",
+}
